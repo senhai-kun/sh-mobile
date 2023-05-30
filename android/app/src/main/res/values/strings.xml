@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">senhai</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">0WYyGvEn_448ixEdfEveWp2fCk8XrMKTrAaPBa</string>
+</resources>
