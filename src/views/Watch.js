@@ -347,8 +347,8 @@ export default function Watch({ route }) {
         setPaused(false)
     }
     const skipIntro = () => {
-        videoPlayer.current.seek(currentTime+80)
-        setCurrentTime(currentTime+80)
+        videoPlayer.current.seek(currentTime+90)
+        setCurrentTime(currentTime+90)
     }
     const onNextEpisode = () => {
         setCurrentEpisode(currentEpisode+1)
@@ -534,7 +534,7 @@ export default function Watch({ route }) {
                                     {isFullScreen && userPref.skipIntroButton &&
                                         <TouchableOpacity onPress={skipIntro} >
                                             <View style={{ display: 'flex', flexDirection: 'row', alignItems: 'center' }} >
-                                                <Text style={{ textAlign: 'right' }} >Skip 1:20</Text>
+                                                <Text style={{ textAlign: 'right' }} >Skip 1:30</Text>
                                                 <MaterialCommunityIcons name='skip-forward' color='#fff' size={25} />
                                             </View>
                                         </TouchableOpacity>
